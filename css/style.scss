@@ -391,11 +391,10 @@ header {
     height: 200px;
     background: #fff;
     position: relative;
-    overflow: hidden;
     border-top: 1px solid #ff3600;
-    border-bottom: 1px solid #ff3600; 
+    border-bottom: 1px solid #ff3600;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 #section5 {
@@ -410,7 +409,8 @@ header {
     li {
       width: 380px;
       height: 560px;
-      background: #ff3600;
+      background: #fff;
+      box-shadow: 2px 2px 10px 1px #aaa;
       border-radius: 50px;
       display: flex;
       flex-direction: column;
@@ -426,7 +426,7 @@ header {
       }
       .text_box {
         text-align: center;
-        color: #fff;
+        color: #000;
       }
     }
 
